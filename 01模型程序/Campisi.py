@@ -6,6 +6,7 @@ import math
 from statsmodels.regression.linear_model import OLS
 from tqdm import tqdm
 
+# 需要wind的EDB经济数据库权限
 
 class YieldCurveInterpolator:
     def __init__(self, startdate: str, enddate: str):
